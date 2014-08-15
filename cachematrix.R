@@ -1,6 +1,6 @@
-## The two functions are used to take pre process the inverse of a
-## large matrix, and store the result without having to process the inverse
-## again
+## The two functions are used to  pre process the inverse of a
+## large matrix, and cache the result of the inversion. This is done
+## in order not to have to invert the matrix again.
 
 ## The first function takes a matrix and creates four functions
 ## in order to save extract and save information about it
@@ -23,7 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## This function calculates the inverse of the matrix, assuming there is an inverse
 ## if the value was already stored in the list, just returns the value
-## of the matrix that is cached. 
+## of the inverse of the matrix that is cached. 
 
 
 cacheSolve <- function(x, ...) {
