@@ -4,6 +4,7 @@
 
 ## The first function takes a matrix and creates four functions
 ## in order to save extract and save information about it
+##
 
 
 
